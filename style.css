@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 
-clearfix::after{
+.clearfix::after{
     content:"";
     display: table; /*per questioni di retrocompatibilità dei browser*/
     clear: both;
@@ -14,13 +14,8 @@ clearfix::after{
     float: left;
 }
 
-header{
-    position: fixed;
-    /*z-index:2*/
-}
-
-.debug .container{
-    height: 100px;
+.float-right{
+    float: right;
 }
 
 .container{
@@ -28,8 +23,15 @@ header{
     margin:0 auto;
 }
 
+
 header{
     line-height: 50px;
+    /*position: fixed;*/
+    /*z-index:2*/
+}
+
+.debug .header{
+    height: 300px;
 }
 
 header nav li{
@@ -60,7 +62,8 @@ header nav li{
  }
 
  .container .logo{
-     padding:20px 0px;
+     vertical-align: middle;
+     /*padding:30px 0px;*/
      margin-right: 10px;
  }
 
@@ -68,6 +71,27 @@ header nav li{
      margin-right: 270px;
  }
 
+ .prova-gratuita{
+     background-color: cyan;
+ }
+
+ .titolo{
+     margin-bottom: 50px;
+ }
+
+ .prova-gratuita img{
+     height:300px;
+ }
+
+ .prova-gratuita .col-left{
+     width: 300px;
+     height:100px;
+ }
+
+ .prova-gratuita button{
+     margin-top:40px;
+     margin-bottom:10px
+ }
 
 
  
