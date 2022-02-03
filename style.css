@@ -1,0 +1,72 @@
+*{  /*css reset*/
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+clearfix::after{
+    content:"";
+    display: table; /*per questioni di retrocompatibilità dei browser*/
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+header{
+    position: fixed;
+    /*z-index:2*/
+}
+
+.debug .container{
+    height: 100px;
+}
+
+.container{
+    background-color: white;
+    margin:0 auto;
+}
+
+header{
+    line-height: 50px;
+}
+
+header nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin:10px;
+}
+
+ header nav li a{
+     text-decoration: none;
+     color: black;
+ } 
+
+ header nav li a:hover{
+     text-decoration: underline;
+ }
+
+ .btn-blue{
+    background-color: blue;
+    color:white;
+    padding-left: 10px;
+    padding-right:10px;
+ }
+
+ header button{
+     margin-left:10px;
+ }
+
+ .container .logo{
+     
+     margin-right: 10px;
+ }
+
+ .container .nav-sinistra{
+     margin-right: 270px;
+ }
+
+
+
+ 
