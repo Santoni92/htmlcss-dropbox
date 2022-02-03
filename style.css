@@ -56,10 +56,11 @@ header nav li{
 
  header button{
      margin-left:10px;
+     margin-top:25px;
  }
 
  .container .logo{
-     
+     padding:20px 0px;
      margin-right: 10px;
  }
 
