@@ -45,6 +45,10 @@ header nav li{
      color: black;
  } 
 
+ header .nav-sinistra{
+     margin-right: 400px;
+ }
+
  header nav li a:hover{
      text-decoration: underline;
  }
@@ -61,14 +65,9 @@ header nav li{
      margin-top:25px;
  }
 
- .container .logo{
-     vertical-align: middle;
-     /*padding:30px 0px;*/
-     margin-right: 10px;
- }
-
- .container .nav-sinistra{
-     margin-right: 270px;
+ .clearfix .logo{
+     padding-top:15px; 
+     margin-right:10px;
  }
 
  .prova-gratuita{
@@ -77,6 +76,7 @@ header nav li{
 
  .titolo{
      margin-bottom: 50px;
+     font-size: 30px;
  }
 
  .prova-gratuita{
@@ -84,7 +84,7 @@ header nav li{
  }
 
  .prova-gratuita img{
-     height:300px;
+     height:450px;
  }
 
  .prova-gratuita .col-left{
