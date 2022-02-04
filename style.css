@@ -194,13 +194,14 @@ header nav li{
     border:1px solid gray;
 }
 
-.single-col .top-col{
+.enterprise .top-col{
     height:20%;
 }
 
-.single-col .col{
+.enterprise .col{
     height: 80%;
 }
+
 /*/sez. enterprise*/
 
 
