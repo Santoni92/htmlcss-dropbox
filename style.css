@@ -135,7 +135,6 @@ header nav li{
 }
 
 .piano-dropbox .top-col{
-    height:20%;
     border: 1px solid gray;
     padding:5px 20px;
     text-align: center;
@@ -143,11 +142,10 @@ header nav li{
 } 
 
  .piano-dropbox .bottom-col{
-     height:80%;
+     min-height:1300px ;
      border-left:1px solid gray;
      border-right: 1px solid gray;
      border-bottom: 1px solid gray;
-    /* padding-top: 20px;*/
      padding-left:10px;
  }
 
@@ -188,11 +186,22 @@ header nav li{
     margin-top:40px;
     margin-left: 20px;
 }
-
-.single-col{
-    margin-top:100px;
-}
 /*/sez. piano-dropbox*/
+
+/*sez. enterprise*/
+.enterprise{
+    margin-top:100px;
+    border:1px solid gray;
+}
+
+.single-col .top-col{
+    height:20%;
+}
+
+.single-col .col{
+    height: 80%;
+}
+/*/sez. enterprise*/
 
 
 
