@@ -139,7 +139,7 @@ header nav li{
 .piano-dropbox .col{
     width: calc(100% / 3 - 2%);
     margin-top:3%;
-    margin-left: 2%;
+    margin-left: 2%;    /*per distanziare una dall'altra in orizzontale le tre colonne*/
 }
 
 .piano-dropbox h1{
@@ -172,8 +172,9 @@ header nav li{
 
 .piano-dropbox .bottom-col .periodo{
     margin-top: 2%;
-    margin-left:3%;
+    margin-left:10%;
     color:#9fa8b1;
+    font-size: 15px;
 }
 
 .piano-dropbox .bottom-col ul{
@@ -188,9 +189,14 @@ header nav li{
     margin-bottom: 15%;
 }
 
+.piano-dropbox hr{
+    width:25%;
+    margin-top: 10%;
+    color:#d0d0d3;
+}
+
 .piano-dropbox .bottom-col h2{
     margin-top:20%;
-    margin-left: 10%;
 }
 
 .enterprise{
