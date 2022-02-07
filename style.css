@@ -26,14 +26,10 @@ body{
     float: right;
 }
 
-.w-370{
-    width:370px;
-}
-
 .btn-blue{
     background-color: blue;
     color:white;
-    padding-left: 10px;
+   padding-left: 10px; /* com questa regola sul padding mi sistemo il button nell'header*/
     padding-right:10px;
  }
 
@@ -42,18 +38,20 @@ body{
  }
 
  .btn-grande{
-     padding:10px 40px;
+     padding:10px 40px; /*sovrascrivo la regola sul padding della classe btn-blue così da sistemare i button blue però quelli grandi */
  }
 
  .spunta-blu{
-    color:blue;
+    color:blue; /*per riuscire a fare blu le spunte delle unordered list delle tre colonne*/
 }
 /*/classi di utilità*/
 
 /*header*/
 header{
-    /*position: fixed;*/
-    /*z-index:2*/
+    background-color: #ffffff;
+    position: fixed;
+    width:100%;
+    z-index:2;
 }
 
 .debug .header{
@@ -99,6 +97,7 @@ header nav li{
 /*jumbotron*/
  .prova-gratuita{
      background-color: #b4d0e7;
+     padding:10% 5%;
  }
 
  .prova-gratuita .container{
