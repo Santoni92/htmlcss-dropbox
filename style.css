@@ -21,11 +21,11 @@
 .w-370{
     width:370px;
 }
-
+/*
 .container{
     margin:0 auto;
     max-width:800px;
-}
+}*/
 
 .btn-blue{
     background-color: blue;
@@ -82,10 +82,16 @@ header nav li{
      padding-top:15px; 
      margin-right:10px;
  }
+ /*/header*/
+
 /*jumbotron*/
  .prova-gratuita{
      background-color: cyan;
-     padding-top:30px;
+ }
+
+ .prova-gratuita .container{
+     width: 1000px;
+     padding:10px 100px;
  }
 
 .prova-gratuita h1{
@@ -110,43 +116,39 @@ header nav li{
 
 /*sez. piano-dropbox*/
  .piano-dropbox{
-    margin-top:100px;
+    margin-top:10%;
  }
 
- .container-piano-dropbox{
+ .piano-dropbox .container{
      margin:0 auto;
      max-width:1000px;
  }
 
 .piano-dropbox .col{
-    width:30%;
-    margin-top:30px;
-    margin-left:20px;
+    width: calc(100% / 3 );
+    margin-top:3%;
+    padding: 3%;
 }
 
 .piano-dropbox h1{
     text-align: center;
     font-size: 50px;
-    margin-bottom: 70px;
-}
-
-.piano-dropbox input{
-    margin-left: 1%;
+    margin-bottom: 3%;
 }
 
 .piano-dropbox .top-col{
     border: 1px solid gray;
-    padding:5px 20px;
+    padding:1% 5%;
     text-align: center;
    
 } 
 
  .piano-dropbox .bottom-col{
-     min-height:1300px ;
+     min-height:1400px;
      border-left:1px solid gray;
      border-right: 1px solid gray;
      border-bottom: 1px solid gray;
-     padding-left:10px;
+     padding:2%;
  }
 
  .piano-dropbox ul{
@@ -154,55 +156,306 @@ header nav li{
  }
 
 .piano-dropbox .bottom-col h1{
-    margin-bottom: 20px;
-    margin-left:30px;
-    margin-left: 1%;   
+    margin-left: 1%; 
 }
 
 .piano-dropbox .bottom-col .price{
-    margin-left: 30px;
+    margin-left: 10%;
 }
 
 .piano-dropbox .bottom-col .periodo{
-    margin-bottom: 60px;
-    margin-left:30px;
+    margin-top: 2%;
+    margin-left:3%;
 }
 
 .piano-dropbox .bottom-col ul{
-    margin-bottom:80px;
+    margin-bottom:20%;
 }
 
 .piano-dropbox .bottom-col li{
-    margin:30px;
+    margin:15%;
 }
 
 .piano-dropbox .bottom-col button{
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 30px;
+    margin-bottom: 15%;
 }
 
 .piano-dropbox .bottom-col h2{
-    margin-top:40px;
-    margin-left: 20px;
+    margin-top:20%;
+    margin-left: 10%;
 }
-/*/sez. piano-dropbox*/
 
-/*sez. enterprise*/
 .enterprise{
     margin-top:100px;
     border:1px solid gray;
 }
 
-.enterprise .top-col{
-    height:20%;
+/*/sez. piano-dropbox*/
+
+.partner-dropbox{
+    margin-top: 150px;
 }
 
-.enterprise .col{
-    height: 80%;
+.partner-dropbox .container{
+    margin:0 auto;
+    max-width: 1000px;
 }
 
-/*/sez. enterprise*/
+.partner-dropbox img{
+    height: 500px;
+}
+
+.partner-dropbox .col{
+    width:300px;
+}
+
+.partner-dropbox h2{
+    margin-bottom: 10%;
+}
+
+.partner-dropbox p{
+    margin-bottom: 10%;
+}
+
+.partner-dropbox button{
+    background-color: white;
+    border:1px solid black;
+    padding:5px;
+}
+/*/sez. piano-dropbox*/
+
+/*sez. operazioni-dropbox*/
+.debug .operazioni-dropbox{
+    height: 1250px;
+}
 
 
+.operazioni-dropbox{
+    margin-top: 10%;
+    /*border: 1px dashed red;*/
+}
 
+.operazioni-dropbox .container{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.operazioni-dropbox .row{
+  /* border:1px dashed green;*/
+   margin-top: 2%;
+}
+
+.debug .row{
+    height: 570px;
+}
+
+.operazioni-dropbox .card{
+    width:calc(100% / 3 - 2%);  
+    margin-right:2%;
+}
+
+.operazioni-dropbox .card .sfondo{
+    height:250px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25%;
+}
+
+#sfondo-1{
+    background-image: url(img/business-feature-switching-tools.png);
+}
+
+#sfondo-2{
+    background-image: url(img/business-feature-coordinate-it.png);
+}
+
+#sfondo-3{
+    background-image: url(img/business-feature-multi-device.png);
+}
+
+#sfondo-4{
+    background-image: url(img/business-feature-integrations-it.png);
+}
+
+#sfondo-5{
+    background-image: url(img/business-feature-send-files-it.png);
+}
+
+#sfondo-6{
+    background-image: url(img/business-feature-security.png);
+}
+
+.operazioni-dropbox .card .testo p{
+    margin-top:5%;
+}
+
+#singolo{
+    width:40%;
+    margin-top:20%;
+    margin-bottom: 3%;
+}
+/*/sez. operazioni-dropbox*/
+
+/*sez.designit*/
+.debug .designit{
+    height:1100px;
+}
+
+.designit{
+    border:1px dashed red;
+    margin-top: 3%;
+}
+
+.debug .row-top{
+    height:500px;
+}
+
+.row-top{
+    border: 1px dashed green;
+}
+
+.debug .row-bottom{
+    height: 350px;
+}
+
+.row-bottom{
+    background-color: #b4d0e7;
+}
+
+.designit .col{
+    width:calc(100% / 3);
+    position: relative; /*così da riuscire a posizionare i div 
+                        che formano i 4 quadrati dando a ciascuno di essi 'position:absolute'*/
+     height: 500px;
+}                    
+
+ #designit-icon{
+     position:absolute;
+     top:0px;
+     left:0px;
+     width:50%;
+     height:250px;
+     background-color: #a2d39b;
+ }
+
+ #asu{
+     position: absolute;
+     top:0px;
+     right:0px;
+     width:50%;
+     height:250px;
+     background-color: #61082b;
+ }
+
+ #florida{
+     position: absolute;
+     bottom:0px;
+     left:0px;
+     width:50%;
+     height:250px;
+     background-color: #0093ce;
+ }
+
+ #topps{
+     position: absolute;
+     bottom: 0px;
+     right:0px;
+     width:50%;
+     height:250px;
+     background-color: #ff1c1c;
+ }
+
+ .row-top .col-icon img{
+    width:150px;
+    position: absolute;    /*per poter mettere poi le immagini al centro dei div*/
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.designit .col-center{
+    background-color: #f5f5f5;
+    padding:5%;
+}
+
+.designit #icona-singola{
+    width:150px;
+    margin-top:10%;
+    margin-left:10%;
+    margin-bottom: 30%;
+}
+
+#bicycle-relief{
+     position:absolute;
+     top:0px;
+     left:0px;
+     width:50%;
+     height:250px;
+    background-color: #d5001f;
+}
+
+#hearst{
+    background-color: #b4d0e7;
+    position:absolute;
+    top:0px;
+    right:0px;
+     width:50%;
+     height:250px;
+}
+
+#lonely{
+    position:absolute;
+     bottom:0px;
+     left:0px;
+     width:50%;
+     height:250px;
+    background-color: #0d2481;
+}
+
+#clear-channel{
+    position:absolute;
+     bottom:0px;
+     right:0px;
+     width:50%;
+     height:250px;
+    background-color: #ffd830;
+}
+
+.row-bottom{
+    padding-bottom: 10%;
+}
+
+.row-bottom h2{
+    margin-left:30%;
+    margin-top:20%;
+    color:#61082b;
+    font-size: 50px;
+}
+
+.row-bottom button{
+    background-color: white;
+    margin-right:180px;
+    margin-top:200px;
+}
+/*/sez.designit*/
+
+/*sez.domande-frequenti*/
+.domande-frequenti .container{
+    margin:0 auto;
+    max-width:1000px;
+}
+
+.domande-frequenti .sottolineatura{
+    border-bottom: 1px solid gray;
+    width: 80%;
+}
+
+.domande-frequenti h2{
+    margin-bottom: 5%;
+}
+
+.domande-frequenti li{
+   display: inline-block; 
+   margin-right:6%;
+}
+/*/sez.domande-frequenti*/
